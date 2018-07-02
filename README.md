@@ -3,8 +3,8 @@
 总结Java开发技术面试常问的问题，持续更新中~
 
 
-* JAVA(https://github.com/kangzhidong)
-    * [JAVA基础]
+* JAVA
+    * [JAVA基础](https://github.com/kangzhidong)
     * [JAVA虚拟机]
     * [JAVA并发]
     * [JAVA容器]
