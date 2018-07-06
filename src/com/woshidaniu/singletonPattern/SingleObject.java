@@ -43,17 +43,17 @@ public class SingleObject {
 
 //双检锁/双重校验锁
 // class Singleton {
-//    private volatile static Singleton singleton;
+//    private volatile static Singleton 单例;
 //    private Singleton (){}
 //    public static Singleton getSingleton() {
-//        if (singleton == null) {
+//        if (单例 == null) {
 //            synchronized (Singleton.class) {
-//                if (singleton == null) {
-//                    singleton = new Singleton();
+//                if (单例 == null) {
+//                    单例 = new Singleton();
 //                }
 //            }
 //        }
-//        return singleton;
+//        return 单例;
 //    }
 //    public void showMessage(){
 //        System.out.println("Hello World!");
