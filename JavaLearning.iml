@@ -6,6 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/Java_Interview/Java_Interview_crossoverJie/src" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/concurrency/concurrent_programming" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_1" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_2" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_3" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_4" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_5" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_6" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_7" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
