@@ -24,12 +24,12 @@ public class countDownLatch {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println(Thread.currentThread().getName() +"thread run");
+                    System.out.println(Thread.currentThread().getName() +"threaddemo run");
                     try {
                         Thread.sleep(2000);
                         countDown.countDown();
 
-                        System.out.println(Thread.currentThread().getName() +"thread end");
+                        System.out.println(Thread.currentThread().getName() +"threaddemo end");
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

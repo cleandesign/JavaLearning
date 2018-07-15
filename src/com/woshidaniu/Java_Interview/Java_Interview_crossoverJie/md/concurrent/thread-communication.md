@@ -253,7 +253,7 @@ public class Volatile implements Runnable{
 
     public static void main(String[] args) throws InterruptedException {
         Volatile aVolatile = new Volatile();
-        new Thread(aVolatile,"thread A").start();
+        new Thread(aVolatile,threaddemo).start();
 
 
         System.out.println("main 线程正在运行") ;
@@ -428,7 +428,7 @@ public class StopThread implements Runnable {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        Thread thread = new Thread(new StopThread(), "thread A");
+        Thread thread = new Thread(new StopThread(), threaddemo);
         thread.start();
 
         System.out.println("main 线程正在运行") ;

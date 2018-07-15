@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/Java_Interview/Java_Interview_crossoverJie/src" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/concurrency/Java并发编程与高并发解决方案/Concurrency" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/concurrency/Java并发编程与高并发解决方案/HighConcurrency" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/concurrency/concurrent_programming" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_1" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/woshidaniu/秒杀/miaosha_2" />
