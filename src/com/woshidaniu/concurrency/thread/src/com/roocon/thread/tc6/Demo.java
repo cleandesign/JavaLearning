@@ -3,14 +3,14 @@ package com.woshidaniu.concurrency.thread.src.com.roocon.thread.tc6;
 public class Demo {
 	
 	private int a;
-	private static final int b ;
+	private  final int b ;
 	
 	static  {
-		b = 10;
+//		b = 10;
 	}
 	
 	public Demo() { // 1
-//		b = 20; // 2
+		b = 20; // 2
 		a = 10; // 3
 	} // 4
 	

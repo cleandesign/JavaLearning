@@ -19,7 +19,7 @@ import java.io.InputStream;
 //                      这里提到类加载器，是为了给模板方法一个现有的现实中的例子，以便于有些看多了自己制造的例子的读者可以换个口味，如果有机会，LZ会在这个系列完结以后，专门开一个系列来和各位分享学习虚拟机过程中的感悟，本次不再过多介绍类加载器的相关内容。
 class MyClassLoader extends ClassLoader{
 
-        public Class<?> loadClass(String name) throws ClassNotFoundException {
+        public Class<?>  loadClass(String name) throws ClassNotFoundException {
             String fileName = name.substring(name.lastIndexOf(".")+1) + ".class";
             InputStream is = getClass().getResourceAsStream(fileName);
             if (is == null) {

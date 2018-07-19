@@ -1,0 +1,20 @@
+package com.woshidaniu.designpattern.私塾在线研磨设计模式.designpattern.src.cn.javass.dp.abstractfactory.example3;
+/**
+ * ΢�ǵ�����
+ */
+public class MSIMainboard implements MainboardApi{
+	/**
+	 * CPU��۵Ŀ���
+	 */
+	private int cpuHoles = 0;
+	/**
+	 * ���췽��������CPU��۵Ŀ���
+	 * @param cpuHoles CPU��۵Ŀ���
+	 */
+	public MSIMainboard(int cpuHoles){
+		this.cpuHoles = cpuHoles;
+	}
+	public void installCPU() {
+		System.out.println("now in MSIMainboard,cpuHoles="+cpuHoles);
+	}
+}
